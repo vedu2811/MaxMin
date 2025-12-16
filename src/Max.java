@@ -1,6 +1,6 @@
 public class Max {
-    public Integer findMax(Integer n1,Integer n2,Integer n3){
-        Integer max=n1;
+    public Float findMax(Float n1,Float n2,Float n3){
+        Float max=n1;
         if(n2.compareTo(n1)>0){
             max=n2;
         }
