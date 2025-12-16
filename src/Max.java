@@ -1,6 +1,6 @@
-public class Max {
-    public String findMax(String n1,String n2,String n3){
-        String max=n1;
+public class Max  {
+    public <T extends Comparable<T>> T findMax(T n1,T n2,T n3){
+        T max=n1;
         if(n2.compareTo(n1)>0){
             max=n2;
         }

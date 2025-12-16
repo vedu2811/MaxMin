@@ -3,6 +3,6 @@ public class Main{
         Max m=new Max();
         System.out.println(m.findMax("Apple", "Peach", "Banana"));
         System.out.println(m.findMax("Apple", "Banana","Peach"));
-        System.out.println(m.findMax("Peach","Apple",  "Banana"));
+        System.out.println(m.findMax(4,6,7));
     }
 }
