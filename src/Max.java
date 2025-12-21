@@ -1,12 +1,13 @@
 import java.util.Arrays;
 
 public class Max  {
-    public <T extends Comparable<T>> T findMax(T... values){
+    public <T extends Comparable<T>> void findMax(T... values){
         if(values.length==0){
-            return null;
+            return;
         }
         Arrays.sort(values);
-        return values[values.length-1];
+//        return values[values.length-1];
+        System.out.println(values[values.length-1]);
 
 //        T max=n1;
 //        if(n2.compareTo(n1)>0){
