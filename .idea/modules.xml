@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MaxMin.iml" filepath="$PROJECT_DIR$/MaxMin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GE_MaxMin.iml" filepath="$PROJECT_DIR$/GE_MaxMin.iml" />
     </modules>
   </component>
 </project>
